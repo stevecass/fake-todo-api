@@ -7,8 +7,8 @@ function generateTask(id) {
   return {
     id: id,
     description: seedTodos[id],
-    done: false,
-    due_at: faker.date.future()
+    completed: false,
+    dueDate: faker.date.future()
   }
 }
 
